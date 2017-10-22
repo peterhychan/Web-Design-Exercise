@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+body, html {
+	margin: 0 auto;
+	background: #fafafa;
+}
+
+#nav-bar {
+	/* Question 1 */
+	/* How do I center (vertically) a block element and center (horizontally) text?*/
+	text-align: center;
+	margin: 0 auto;
+}
+
+#header {
+	height: 7vw;
+    background: white;
+    position: fixed;
+    z-index: 10;
+    opacity: 0.8;
+    width: 100%;
+    color: #78c272;
+}
+
+.nav-item {
+	font-size: 70px;
+	font-weight: bold;
+}
+
+#content {
+	/* Question 3 */
+	/* Position the wrapper class for the content*/
+	position: fixed;
+	width: 100%;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	color:#333;
+}
+
+svg {
+	height: 160px;
+}
+
+#content-shift {
+	/* Question 3 */
+	/* Position the wrapper class for the arrows */
+	position: fixed;
+	top:50%;
+}
+
+.clearfix{
+	clear: both;
+}
+
+.right {
+	left: 120vw;
+	transform: rotate(180deg);
+}
+
+.art2, .art3, .art4 {
+	display: none;
+}
+
+.arrow {
+	position: absolute;
+	cursor: pointer;
+	transition: 0.4s;
+	opacity: 0.7;
+}
+.arrow:hover {
+	fill: #78c272;
+}
+
+.article {
+	position: relative;
+    width: 55%;
+    font-size: 50px;
+    margin: auto;
+}
+
+/* Question 4 */
+/* Style the p tag, hint - look up ::selection */
+
+
+.artilce-header{
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-shadow: 2px 3px 2px black;
+}
+
+p::selection{
+	color:white;
+	background-color: #78c272;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.artilce-header {
+	font-weight: 700;
+    font-size: 75px;
+    color: rgba(0,0,0,.8);
+}
+
+p {
+	font-size: 45px;
+	line-height: 100px;
+	opacity: 0.7;
+}
