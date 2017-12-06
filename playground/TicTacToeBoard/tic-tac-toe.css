@@ -1,0 +1,27 @@
+#container{
+	margin: auto;
+	width: 40%;
+}
+
+td{
+	width: 100px;
+	height: 100px;
+}
+h1{
+	color: white;
+	text-align:  center;
+}
+
+body{
+	background: black;
+}
+
+.horizontal{
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+}
+
+.vertical{
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+}
